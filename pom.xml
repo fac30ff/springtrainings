@@ -79,6 +79,9 @@
 
   <modules>
     <module>context-from-xml</module>
+    <module>context-from-java</module>
+    <module>context-from-annotation</module>
+    <module>context-from-groovy</module>
   </modules>
 
   <build>
