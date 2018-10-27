@@ -4,6 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
   <import resource="employee.xml"/>
   <import resource="person.xml"/>
+  <import resource="employeemanager.xml"/>
   <bean id="department" class="com.xmlcontext.model.Department"/>
   <bean id="operations" class="com.xmlcontext.model.Operations"/>
 </beans>
