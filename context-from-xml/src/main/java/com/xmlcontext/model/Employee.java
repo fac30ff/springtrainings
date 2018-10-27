@@ -1,10 +1,10 @@
 package com.xmlcontext.model;
 
-public class Person {
+public class Employee {
   private long id;
   private String name;
 
-  public Person() {
+  public Employee() {
     super();
   }
 
@@ -26,9 +26,6 @@ public class Person {
 
   @Override
   public String toString() {
-    return "Person [" +
-            "id=" + id +
-            ", name='" + name + '\'' +
-            ']';
+    return "Employee [id=" + id + ", name=" + name + "]";
   }
 }
