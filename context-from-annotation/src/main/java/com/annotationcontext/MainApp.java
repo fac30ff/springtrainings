@@ -6,5 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan(basePackages = {"com.annotationcontext.configuration"})
 public class MainApp {
+  public static void main(String[] args) {
   ApplicationContext annoCtx = new AnnotationConfigApplicationContext();
+  }
 }
